@@ -1,0 +1,9 @@
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\bin\Debug\AlgorithmsDemo.exe.config
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\bin\Debug\AlgorithmsDemo.exe
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\bin\Debug\AlgorithmsDemo.pdb
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\obj\Debug\AlgorithmsDemo.csprojResolveAssemblyReference.cache
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\obj\Debug\AlgorithmsDemo.exe
+E:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\obj\Debug\AlgorithmsDemo.pdb
+D:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\bin\Debug\AlgorithmsDemo.exe.config
+D:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\obj\Debug\AlgorithmsDemo.exe
+D:\WinWork\WinDemo\AlgorithmsDemo\AlgorithmsDemo\obj\Debug\AlgorithmsDemo.pdb
