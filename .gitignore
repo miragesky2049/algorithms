@@ -142,3 +142,5 @@ ModelManifest.xml
 /Assessment.Enterprise/Beisen.Assessment.Enterprise/ActivitiesController3.cs.orig
 *.orig
 /Assessment.OpsTools/Beisen.OpsTools.Online.Web/TxtLog
+/AlgorithmsDemo/bin/Debug
+/AlgorithmsDemo/obj/Debug
