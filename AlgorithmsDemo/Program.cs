@@ -80,6 +80,28 @@ namespace AlgorithmsDemo
             }
         }
     }
+    /// <summary>
+    /// 2.1.3插入排序
+    /// </summary>
+    public class Insertion : Example
+    {
+        /// <summary>
+        /// 将a[]按升序排列
+        /// </summary>
+        /// <param name="a"></param>
+        public static void Sort(IComparable[] a)
+        {
+            int N = a.Length;
+            for(int i=1;i< N; i++)
+            {
+                //将a[i]插入到a[i-1]、a[i-2]、a[i-3]...之中
+                for(int j = i; j > 0 && less(a[j], a[j - 1]); j--)
+                {
+                    exch(a, j, j - 1);
+                }
+            }
+        }
+    }
 
     public class BinarySearch
     {
