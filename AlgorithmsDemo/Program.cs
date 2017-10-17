@@ -46,16 +46,19 @@ namespace AlgorithmsDemo
         }
         public static bool isSorted(IComparable[] a)
         {
-            for(int i = 0; i < a.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
                 if (less(a[i], a[i + 1]))
                 {
                     return false;
                 }
-             return true;
+            }
+            return true;
         }
     }
-
+    /// <summary>
+    /// 选择排序
+    /// </summary>
     public class Selection : Example
     {
         /// <summary>
