@@ -12,7 +12,7 @@ namespace AlgorithmsDemo
         {
             Program p = new Program();
             Example.show(new IComparable[] { 3, 1, 3, 5 });
-            Shell.Sort(new IComparable[] { 3, 1, 5, 6, 3, 1, 9, 5, 0, 5 });
+            Shell.Sort(new IComparable[] { 3, 1, 15, 6, 13, 51, 9, 45, 0,85 ,67,39,68,42,26,457});
         }
 
 
