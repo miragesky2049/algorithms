@@ -12,6 +12,7 @@ namespace AlgorithmsDemo
         {
             Program p = new Program();
             Example.show(new IComparable[] { 3, 1, 3, 5 });
+            Shell.Sort(new IComparable[] { 3, 1, 5, 6, 3, 1, 9, 5, 0, 5 });
         }
 
 
@@ -102,9 +103,31 @@ namespace AlgorithmsDemo
             }
         }
     }
-
-    public class BinarySearch
+    /// <summary>
+    /// 2.1.6希尔排序
+    /// </summary>
+    public class Shell : Example
     {
+        /// <summary>
+        /// 将a[]按升序排列
+        /// </summary>
+        /// <param name="a"></param>
+        public static void Sort(IComparable[] a)
+        {
+            int N = a.Length;
+            int h = 1;
+            while (h < N / 3) h = 3 * h + 1;//1,,4,13,40,121,364,1093
+            while (h >= 1)
+            {//将数组变为h有序
+                for (int i= h;i< N; i++)
+                {//将a[i]插入到a[i-h],a[i-2*h],a[i-3*h]...之中
+                    for (int j= i; j >= h && less(a[j], a[j - h]); j -= h)
+                        exch(a, j, j - h);
+                }
+                h = h / 3;
+            }
+        }
+
 
     }
 
